@@ -1,0 +1,20 @@
+.number-of-client-emails-wrap{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.number-of-client-emails-badge{
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    background: #1976d2;
+    border: 0px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    color:#fff;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: '__Roboto_a17896','__Roboto_Fallback_a17896';
+}

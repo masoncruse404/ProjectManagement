@@ -1,0 +1,42 @@
+{
+  "name": "Project-Management-Client",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3775",
+    "build": "next build",
+    "start": "next start -p 3775",
+    "lint": "next lint",
+    "prettier": "prettier --write ."
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.5",
+    "@mui/lab": "^5.0.0-alpha.161",
+    "@mui/material": "^5.15.5",
+    "@mui/material-next": "^6.0.0-alpha.118",
+    "@mui/x-data-grid": "^6.19.4",
+    "@mui/x-date-pickers": "^6.19.0",
+    "@nextui-org/react": "^2.2.9",
+    "axios": "^1.6.5",
+    "cookies-next": "^4.1.1",
+    "date-fns": "^3.3.0",
+    "dayjs": "^1.11.10",
+    "next": "^14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.50.1",
+    "react-hot-toast": "^2.4.1",
+    "react-spinkit": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "prettier": "^3.2.4",
+    "typescript": "^5"
+  }
+}

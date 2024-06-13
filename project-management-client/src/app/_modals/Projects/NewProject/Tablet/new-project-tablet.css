@@ -1,0 +1,198 @@
+.wrapper-tablet > div {
+    padding: 10px 20px;
+    color: #000;
+  }
+  
+  .wrapper-tablet-dark {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5px;
+    width:700px;
+    max-height:1100px;
+    height:90%;
+    border:1px solid #cdcdcd;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 999;
+    background: #444;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+  }
+  
+    
+  .wrapper-tablet {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5px;
+    width:700px;
+    max-height:1100px;
+    height:90%;
+    border:1px solid #cdcdcd;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 999;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+  }
+
+  .header-tablet{
+    grid-column: 1 / 4;
+    grid-row: 1;
+    display:flex;
+    height:40px;
+    justify-content: space-between;
+    align-items: center;
+    background: #CDCDCD;
+    font-weight:700;
+    width:100%;
+  }
+
+  .select-client-component-tablet{
+    grid-column: 1;
+    grid-row: 2;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .project-name-component-tablet{
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .project-desc-component-tablet{
+    grid-column: 2;
+    grid-row: 4;
+  }
+
+  .date-start-tablet{
+    grid-column: 2;
+    grid-row: 2;
+    font-weight: 600;
+  }
+
+  .date-end-tablet{
+    grid-column: 2;
+    grid-row: 3;
+    font-weight: 600;
+  }
+
+  .project-type-component-tablet{
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .project-status-component-tablet{
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .percentage-complete-component-tablet{
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .It-contacts-component-tablet{
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .estimated-time-hours-component-tablet{
+    grid-column: 2;
+    grid-row: 6;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .estimated-time-hours-component-tablet > div:first-child{
+    margin-bottom:10px;
+  }
+
+  .cost-per-hour-component-tablet{
+    grid-column: 2;
+    grid-row: 7;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cost-per-hour-component-tablet > div:first-child{
+    margin-bottom:10px;
+  }
+
+  .contact-container-tablet{
+    grid-column: 1;
+    grid-row: 7;
+  }
+
+  .actual-time-hours-component-tablet{
+    grid-column: 2;
+    grid-row: 6;
+  }
+
+  .supplier-company-component-tablet{
+    grid-column: 1;
+    grid-row:6;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-container-tablet{
+    grid-column: 1 / 4;
+  }
+
+  .contact-container-grid-tablet{
+    display: grid;
+  }
+
+  .client-contact-component-tablet{
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom:2.5px;
+  }
+
+  .supplier-contact-component-tablet{
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .erp-contact-component-tablet{
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .contact-container-header-tablet{
+    grid-column:1;
+    grid-row:4;
+    font-weight: 600;
+  }
+
+  .submit-container-tablet{
+    grid-column: 2;
+    grid-row:8;
+  }
+
+  .new-project-modal-close{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-bg{
+    display: block;
+    position: fixed;
+    z-index:70;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.15);
+  }

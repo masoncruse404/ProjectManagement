@@ -1,0 +1,23 @@
+.arrow{
+    transition: all .33s ease-in-out;
+}
+
+.arrow-closed {
+    transform: rotate(-90deg);
+    animation: arrowAnimation .33s ease-in-out;
+  }
+
+  @keyframes arrowAnimation{
+    0% {
+        transform: rotate(-10deg);
+    }
+    50% {
+        transform: rotate(-45deg);
+    }
+    75% {
+        transform: rotate(-75deg);
+    }
+    100% {
+        transform: rotate(-90deg);
+    }
+  }

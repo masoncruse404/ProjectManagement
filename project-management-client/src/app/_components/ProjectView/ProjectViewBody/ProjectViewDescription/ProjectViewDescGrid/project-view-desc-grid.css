@@ -1,0 +1,118 @@
+.grid-border{
+    border-bottom:1px solid #ccc;
+} 
+
+.grid-border-right-xl{
+    border-right:1px solid #ccc;
+}
+
+.grid-border-right-md{
+    border-right:0;
+}
+
+.grid-border-left-md{
+    border-left:0;
+}
+
+#project_view_desc_it_contacts{
+    border-right:1px solid #ccc;
+}
+
+#project_view_desc_cost_per_hour{
+    border-right:1px solid #ccc;
+}
+
+#project_view_desc_supplier_contacts{
+    border-right:1px solid #ccc;
+    border-bottom:0;
+}
+
+#project_view_desc_erp_contacts{
+    border-bottom:0;
+}
+
+#project_view_desc_erp_contacts{
+    border-right:1px solid #ccc;
+}
+
+
+@media (max-width:900px) {
+    .grid-border-right-md{
+        border-right:1px solid #ccc;
+    }
+
+    .grid-border-right-xl{
+        border-right:0;
+    }
+
+    .grid-border-left-md{
+        border-left:1px solid #ccc;
+    }
+
+    #project_view_desc_client_name{
+        border-right:1px solid #ccc;
+    }
+
+    #project_view_desc_supplier_company{
+        border-right:1px solid #ccc;
+    }
+
+    #project_view_desc_it_contacts{
+        border-right:0;
+    }
+
+    #project_view_desc_supplier_contacts{
+        border-bottom:1px solid #ccc;
+        overflow: 'hidden';
+    }
+
+    #project_view_desc_erp_contacts{
+        border-bottom:1px solid #ccc;
+    }
+
+    #project_view_desc_erp_contacts{
+        border-right:0;
+    }
+    
+
+    
+}
+@media (max-width:600px){
+    .grid-border{
+        border-bottom:0;
+    }
+
+    .grid-border-right-xl{
+        border-right:0;
+    }
+
+    .grid-border-right-md{
+        border-right:0;
+    }
+
+    #project_view_desc_client_name{
+        border-right:0;
+    }
+
+    #project_view_desc_supplier_company{
+        border-right:0;
+    }
+
+    #project_view_desc_cost_per_hour{
+        border-right:0;
+    }
+    
+    #project_view_desc_supplier_contacts{
+        border-right:0;
+    }
+
+    #project_view_desc_supplier_contacts{
+        border-bottom:0;
+    }
+
+    #project_view_desc_erp_contacts{
+        border-bottom:0;
+    }
+    
+}
+    

@@ -1,0 +1,36 @@
+.roller-modal{
+
+  z-index:998;
+  height: 100%;
+  padding-top:64px;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #fff;
+  }
+
+  .roller{
+ 
+    z-index: 999;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top: 4px solid #3498db;
+    animation: roll 1s ease-in-out infinite;
+  
+ 
+  }
+
+  @keyframes roll{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

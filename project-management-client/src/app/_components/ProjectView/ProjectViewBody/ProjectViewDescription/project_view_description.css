@@ -1,0 +1,21 @@
+.project-desc-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.project-desc-wrap{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+}
+
+
+
+.project-desc-text{
+    width:120px;
+}
+
+
