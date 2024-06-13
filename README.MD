@@ -4,7 +4,7 @@
 
 ### What is this repository for? ###
 
-Welcome to our Project Management App. This application is built using Next.js, a powerful React framework for building modern web applications. Our app aims to streamline project management tasks by providing a platform where users can create projects, add notes to projects, and upload files associated with each project.
+This application is built using Next.js, a powerful React framework for building modern web applications. Our app aims to streamline project management tasks by providing a platform where users can create projects, add notes to projects, and upload files associated with each project.
 
 ### version: 1.0.1
 
