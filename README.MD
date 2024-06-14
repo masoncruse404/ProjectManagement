@@ -15,21 +15,27 @@ This application is built using Next.js, a powerful React framework for building
 
 ### Set up the repository
 
-## Install core
+# Installing Docker
 
-    sudo dnf -y install dnf-plugins-core
-
-## Add Repo
-
-    sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
-
-## Install docker engine
-
-     sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+    sudo yum update -y
+    sudo yum install -y docker
 
 ## Start docker
 
     sudo systemctl start docker
+
+## Add ec2-user to Docker group
+
+    sudo usermod -a -G docker ec2-user
+
+# Installing Docker-Compose
+
+    sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+## Set permissions
+
+    sudo chmod +x /usr/local/bin/docker-compose
+
 
 ## Run the app
 

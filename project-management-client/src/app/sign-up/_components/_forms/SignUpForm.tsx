@@ -49,7 +49,7 @@ const SignUpForm = () => {
     const { Admin_Username, Admin_Password } = form
     if ( !Admin_Username ) return;
     if ( !Admin_Password ) return;
-    const serverUrl = process.env.NEXT_PUBLIC_ENV_API_SIGN_UP_URL || "http://localhost:3000/authentication/sign-up"
+    const serverUrl = process.env.NEXT_PUBLIC_ENV_API_SIGN_UP_URL || "http://token.masoncruse.com/authentication/sign-up"
     const origin = process.env.NEXT_PUBLIC_ENV_ORIGIN || "http://project-management.masoncruse.com"
     try {
       fetch(serverUrl, {
